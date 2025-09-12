@@ -5,6 +5,7 @@ filters:
   tag:Project: tera-kube-ans
   tag:environment: dev
   instance-state-name: running
+  tag:ondia: 11-tr
 keyed_groups:
   - key: tags['Project']
     prefix: 'all_instances'
