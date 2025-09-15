@@ -93,7 +93,7 @@ resource "aws_instance" "kube-master" {
   subnet_id = "subnet-c41ba589"  # select own subnet_id of us-east-1a
   availability_zone = "us-east-1a"
   tags = {
-    Name = "kube-master"
+    Name = "kube-master-11tr"
     Project = "tera-kube-ans"
     Role = "master"
     Id = "1"
@@ -110,7 +110,7 @@ resource "aws_instance" "worker-1" {
   subnet_id = "subnet-c41ba589"  # select own subnet_id of us-east-1a
   availability_zone = "us-east-1a"
   tags = {
-    Name = "worker-1"
+    Name = "worker-1-11tr"
     Project = "tera-kube-ans"
     Role = "worker"
     Id = "1"
@@ -127,7 +127,7 @@ resource "aws_instance" "worker-2" {
   subnet_id = "subnet-c41ba589"  # select own subnet_id of us-east-1a
   availability_zone = "us-east-1a"
   tags = {
-    Name = "worker-2"
+    Name = "worker-2-11tr"
     Project = "tera-kube-ans"
     Role = "worker"
     Id = "2"
